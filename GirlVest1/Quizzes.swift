@@ -13,7 +13,7 @@ struct Quizzes: View {
             ZStack{
                 Color(red: 244/255, green: 164/255, blue: 171/255)
                     .ignoresSafeArea()
-                VStack{
+                VStack(alignment: .leading){
                     HStack{
                         NavigationLink(destination: Quiz1()) {
                             Image("qmark")
@@ -22,7 +22,7 @@ struct Quizzes: View {
                                 
                                 
                         }
-                        Text("Quiz 1")
+                        Text("Risk and Reward")
                             .font(.title)
                             .fontWeight(.semibold)
                     }
@@ -33,7 +33,7 @@ struct Quizzes: View {
                                 .frame(width: 200.0, height: 200.0)
                                 
                         }
-                        Text("Quiz 2")
+                        Text("Inflations Impact on Investing")
                             .font(.title)
                             .fontWeight(.semibold)
                     }
@@ -43,7 +43,7 @@ struct Quizzes: View {
                                 .resizable(resizingMode: .stretch)
                                 .frame(width: 200.0, height: 200.0)
                         }
-                        Text("Quiz 3")
+                        Text("Stocks and Mutual Funds")
                             .font(.title)
                             .fontWeight(.semibold)
                     }
