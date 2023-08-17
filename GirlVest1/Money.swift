@@ -1,13 +1,13 @@
 //
-//  Quiz1.swift
+//  Money.swift
 //  GirlVest1
 //
-//  Created by Scholar on 8/16/23.
+//  Created by scholar on 8/17/23.
 //
 
 import SwiftUI
 
-struct Quiz1: View {
+struct Money: View {
     @State private var Answer1 = false
     @State private var Answer2 = false
     @State private var Answer3 = false
@@ -22,16 +22,14 @@ struct Quiz1: View {
                     .ignoresSafeArea()
                                 ScrollView {
                 VStack(spacing: 35){
-                    Text("Finish the Sentence")
-                        .font(.title3)
-                        .fontWeight(.bold)
-                    Text("You cannot contribute to a Roth IRA when you are...")
+                    
+                    Text("Who helps you set up a Roth IRA?")
                         .font(Font.custom("BricolageGrotesque-Regular", size: 30))
                         .foregroundColor(Color(red: 132/255, green: 24/255, blue: 61/255))
                         .multilineTextAlignment(.center)
                         .padding(.horizontal)
                     
-                    Button("Single and make between $138,000 to $153,000")  {
+                    Button("Your employer")  {
                         Answer1.toggle()
                     }
                     .font(Font.custom("BricolageGrotesque-Regular", size: 18)).font(.title2)
@@ -44,7 +42,7 @@ struct Quiz1: View {
                     .foregroundColor(/*@START_MENU_TOKEN@*/.black/*@END_MENU_TOKEN@*/)
                     
                     
-                    Button("Married and make between $218,000 to $228,000") {
+                    Button("The Government") {
                         Answer2.toggle()
                     }
                     .font(Font.custom("BricolageGrotesque-Regular", size: 18))
@@ -58,7 +56,7 @@ struct Quiz1: View {
                     .foregroundColor(/*@START_MENU_TOKEN@*/.black/*@END_MENU_TOKEN@*/)
                     
                     
-                    Button("All of the Above") {
+                    Button("You set it up yourself") {
                         
                         Answer3.toggle()
                         
@@ -123,9 +121,8 @@ struct Quiz1: View {
         }
     }
 }
-           struct Quiz1_Previews: PreviewProvider {
+           struct Money_Previews: PreviewProvider {
                 static var previews: some View {
-                    Quiz1()
+                    Money()
                 }
             }
-     

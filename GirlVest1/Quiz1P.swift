@@ -1,15 +1,13 @@
 //
-//  Quiz1.swift
+//  Quiz1P.swift
 //  GirlVest1
 //
-//  Created by Scholar on 8/16/23.
+//  Created by scholar on 8/17/23.
 //
-
 import SwiftUI
 
-struct Quiz1: View {
+struct Quiz1P: View {
     @State private var Answer1 = false
-    @State private var Answer2 = false
     @State private var Answer3 = false
     
     var body: some View {
@@ -22,16 +20,14 @@ struct Quiz1: View {
                     .ignoresSafeArea()
                                 ScrollView {
                 VStack(spacing: 35){
-                    Text("Finish the Sentence")
-                        .font(.title3)
-                        .fontWeight(.bold)
-                    Text("You cannot contribute to a Roth IRA when you are...")
+                    
+                    Text("Which Retirement plan allows you to put more money into it per year?")
                         .font(Font.custom("BricolageGrotesque-Regular", size: 30))
                         .foregroundColor(Color(red: 132/255, green: 24/255, blue: 61/255))
                         .multilineTextAlignment(.center)
                         .padding(.horizontal)
                     
-                    Button("Single and make between $138,000 to $153,000")  {
+                    Button("401K")  {
                         Answer1.toggle()
                     }
                     .font(Font.custom("BricolageGrotesque-Regular", size: 18)).font(.title2)
@@ -44,21 +40,9 @@ struct Quiz1: View {
                     .foregroundColor(/*@START_MENU_TOKEN@*/.black/*@END_MENU_TOKEN@*/)
                     
                     
-                    Button("Married and make between $218,000 to $228,000") {
-                        Answer2.toggle()
-                    }
-                    .font(Font.custom("BricolageGrotesque-Regular", size: 18))
-                    .font(.title2)
-                    .multilineTextAlignment(.center)
-                    .padding(/*@START_MENU_TOKEN@*/.all/*@END_MENU_TOKEN@*/)
-                    .frame(width: 350.0, height: 100.0)
-                    .buttonBorderShape(/*@START_MENU_TOKEN@*//*@PLACEHOLDER=shape: ButtonBorderShape@*/.roundedRectangle/*@END_MENU_TOKEN@*/)
-                    .background(Color(red: 255/255, green: 227/255, blue:214/255))
-                    .cornerRadius(/*@START_MENU_TOKEN@*/14.0/*@END_MENU_TOKEN@*/)
-                    .foregroundColor(/*@START_MENU_TOKEN@*/.black/*@END_MENU_TOKEN@*/)
                     
                     
-                    Button("All of the Above") {
+                    Button("Roth IRA") {
                         
                         Answer3.toggle()
                         
@@ -85,7 +69,7 @@ struct Quiz1: View {
                                             
                                             Text("+5 GROWTH COINS")
                                                 .font(.title)
-                                            NavigationLink(destination: Quiz1P()) {
+                                            NavigationLink(destination: Quiz1Q()) {
                                                 Text("Next")
                                                     .font(.title)
                                                     .foregroundColor(Color.black)
@@ -96,7 +80,7 @@ struct Quiz1: View {
                         Text("Incorrect!")
                             .font(Font.custom("BricolageGrotesque-Regular", size: 30))
                             .foregroundColor(Color.red)
-                        NavigationLink(destination: Quiz1P()) {
+                        NavigationLink(destination: Quiz1Q()) {
                             Text("Next")
                                 .font(.title)
                                 .foregroundColor(Color(hue: 0.878, saturation: 0.968, brightness: 0.956))
@@ -104,17 +88,6 @@ struct Quiz1: View {
                         
                     }
                     
-                    else if Answer2 {
-                        Text("Incorrect!")
-                            .font(Font.custom("BricolageGrotesque-Regular", size: 30))
-                            .foregroundColor(Color.red)
-                        NavigationLink(destination: Quiz1P()) {
-                            Text("Next")
-                                .font(.title)
-                                .foregroundColor(Color(hue: 0.878, saturation: 0.968, brightness: 0.956))
-                        }
-                        
-                    }
                     
                     
                     
@@ -123,9 +96,8 @@ struct Quiz1: View {
         }
     }
 }
-           struct Quiz1_Previews: PreviewProvider {
+           struct Quiz1P_Previews: PreviewProvider {
                 static var previews: some View {
-                    Quiz1()
+                    Quiz1P()
                 }
             }
-     

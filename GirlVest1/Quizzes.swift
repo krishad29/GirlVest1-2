@@ -19,8 +19,8 @@ struct Quizzes: View {
                             Image("qmark")
                                 .resizable(resizingMode: .stretch)
                                 .frame(width: 200.0, height: 200.0)
-                                
-                                
+                            
+                            
                         }
                         Text("Risk and Reward")
                             .font(.title)
@@ -31,7 +31,7 @@ struct Quizzes: View {
                             Image("qmark")
                                 .resizable(resizingMode: .stretch)
                                 .frame(width: 200.0, height: 200.0)
-                                
+                            
                         }
                         Text("Inflations Impact on Investing")
                             .font(.title)
@@ -51,10 +51,10 @@ struct Quizzes: View {
             }
         }
     }
-}
-
-struct Quizzes_Previews: PreviewProvider {
-    static var previews: some View {
-        Quizzes()
+    
+    struct Quizzes_Previews: PreviewProvider {
+        static var previews: some View {
+            Quizzes()
+        }
     }
 }
