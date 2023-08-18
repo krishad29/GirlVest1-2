@@ -9,7 +9,22 @@ import SwiftUI
 
 struct Profile: View {
     var body: some View {
-        Text("this is the profile page")
+        ZStack{
+            Color(red: 244/255, green: 164/255, blue: 171/255)
+                .ignoresSafeArea()
+            VStack{
+                Text("")
+                Text("")
+                Text("PROFILE")
+                    .font(.largeTitle)
+                    .fontWeight(.thin)
+                Text("")
+                Text("")
+                Text("")
+                Text("")
+                Image("profile")
+            }
+        }
     }
 }
 

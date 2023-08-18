@@ -14,9 +14,7 @@
 		BD2F2FEB2A8D3CC100102230 /* Article3.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD2F2FEA2A8D3CC100102230 /* Article3.swift */; };
 		BD2F2FED2A8D3D4C00102230 /* Article4.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD2F2FEC2A8D3D4C00102230 /* Article4.swift */; };
 		BD2F2FEF2A8D412100102230 /* namePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD2F2FEE2A8D412100102230 /* namePage.swift */; };
-		BD4C9EFF2A8E8A1700F6B670 /* Barlow_Condensed in Resources */ = {isa = PBXBuildFile; fileRef = BD4C9EFE2A8E8A1700F6B670 /* Barlow_Condensed */; };
-		BD4C9F012A8E8A7D00F6B670 /* Ruwudu in Resources */ = {isa = PBXBuildFile; fileRef = BD4C9F002A8E8A7D00F6B670 /* Ruwudu */; };
-		BD4C9F032A8E8A8500F6B670 /* Bricolage_Grotesque in Resources */ = {isa = PBXBuildFile; fileRef = BD4C9F022A8E8A8500F6B670 /* Bricolage_Grotesque */; };
+		BD4BFA5B2A8FB8DE0043CB9E /* stockpile.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD4BFA5A2A8FB8DE0043CB9E /* stockpile.swift */; };
 		BD5254232A8D52B600DFBF18 /* Quiz1.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD5254222A8D52B600DFBF18 /* Quiz1.swift */; };
 		BD5254252A8D537F00DFBF18 /* Quiz2.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD5254242A8D537F00DFBF18 /* Quiz2.swift */; };
 		BD5B2FAF2A8EAA1A00AEBDFB /* Opal.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD5B2FAE2A8EAA1A00AEBDFB /* Opal.swift */; };
@@ -44,9 +42,8 @@
 		BD2F2FEA2A8D3CC100102230 /* Article3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Article3.swift; sourceTree = "<group>"; };
 		BD2F2FEC2A8D3D4C00102230 /* Article4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Article4.swift; sourceTree = "<group>"; };
 		BD2F2FEE2A8D412100102230 /* namePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = namePage.swift; sourceTree = "<group>"; };
-		BD4C9EFE2A8E8A1700F6B670 /* Barlow_Condensed */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Barlow_Condensed; path = ../../../Downloads/Barlow_Condensed; sourceTree = "<group>"; };
-		BD4C9F002A8E8A7D00F6B670 /* Ruwudu */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Ruwudu; path = ../../../Downloads/Ruwudu; sourceTree = "<group>"; };
-		BD4C9F022A8E8A8500F6B670 /* Bricolage_Grotesque */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Bricolage_Grotesque; path = ../../../Downloads/Bricolage_Grotesque; sourceTree = "<group>"; };
+		BD47CD422A8FB52700475914 /* BricolageGrotesque-VariableFont_opsz,wdth,wght.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "BricolageGrotesque-VariableFont_opsz,wdth,wght.ttf"; sourceTree = "<group>"; };
+		BD4BFA5A2A8FB8DE0043CB9E /* stockpile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = stockpile.swift; sourceTree = "<group>"; };
 		BD5254222A8D52B600DFBF18 /* Quiz1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Quiz1.swift; sourceTree = "<group>"; };
 		BD5254242A8D537F00DFBF18 /* Quiz2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Quiz2.swift; sourceTree = "<group>"; };
 		BD5B2FAE2A8EAA1A00AEBDFB /* Opal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Opal.swift; sourceTree = "<group>"; };
@@ -84,6 +81,7 @@
 			isa = PBXGroup;
 			children = (
 				BD6595802A8E74F00038D239 /* Playfair-Italic.ttf */,
+				BD47CD422A8FB52700475914 /* BricolageGrotesque-VariableFont_opsz,wdth,wght.ttf */,
 				BD7195852A8BD4540037B1C8 /* GirlVest1 */,
 				BD7195842A8BD4540037B1C8 /* Products */,
 			);
@@ -101,14 +99,12 @@
 			isa = PBXGroup;
 			children = (
 				BD65957F2A8E74B40038D239 /* Info.plist */,
-				BD4C9F022A8E8A8500F6B670 /* Bricolage_Grotesque */,
-				BD4C9F002A8E8A7D00F6B670 /* Ruwudu */,
-				BD4C9EFE2A8E8A1700F6B670 /* Barlow_Condensed */,
 				BD7195862A8BD4540037B1C8 /* GirlVest1App.swift */,
 				BD7195882A8BD4540037B1C8 /* ContentView.swift */,
 				BD2F2FEE2A8D412100102230 /* namePage.swift */,
 				BD970F202A8BFE5E00A25B77 /* GVpg2.swift */,
 				BD2F2FE42A8D0F0800102230 /* Resources.swift */,
+				BD4BFA5A2A8FB8DE0043CB9E /* stockpile.swift */,
 				BD2F2FE22A8D0E8C00102230 /* Quizzes.swift */,
 				BD9433792A8EA94A00AC50BD /* Quiz3.swift */,
 				BD5B2FB02A8EAC0C00AEBDFB /* Money.swift */,
@@ -198,10 +194,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BD4C9F032A8E8A8500F6B670 /* Bricolage_Grotesque in Resources */,
 				BD71958E2A8BD4560037B1C8 /* Preview Assets.xcassets in Resources */,
-				BD4C9EFF2A8E8A1700F6B670 /* Barlow_Condensed in Resources */,
-				BD4C9F012A8E8A7D00F6B670 /* Ruwudu in Resources */,
 				BD71958B2A8BD4560037B1C8 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -213,6 +206,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BD4BFA5B2A8FB8DE0043CB9E /* stockpile.swift in Sources */,
 				BD9433752A8EA3E400AC50BD /* Quiz1Q.swift in Sources */,
 				BDC3E5032A8E920B0080C233 /* Quiz1P.swift in Sources */,
 				BD970F232A8C080300A25B77 /* Articles.swift in Sources */,
