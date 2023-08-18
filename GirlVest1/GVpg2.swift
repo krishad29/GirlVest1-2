@@ -28,7 +28,7 @@ struct GVpg2: View {
                                     .shadow(radius:10)
                                 
                             }
-                            Text("Articles")
+                            Text("Articles!")
                                 .font(.title)
                                 .fontWeight(.semibold)
                         }
