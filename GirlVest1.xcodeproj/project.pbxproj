@@ -32,6 +32,8 @@
 		BD970F232A8C080300A25B77 /* Articles.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD970F222A8C080300A25B77 /* Articles.swift */; };
 		BD970F252A8C090100A25B77 /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD970F242A8C090100A25B77 /* Profile.swift */; };
 		BDC3E5032A8E920B0080C233 /* Quiz1P.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDC3E5022A8E920B0080C233 /* Quiz1P.swift */; };
+		BDCC77582A8FA7D600CACD2D /* Orange.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDCC77572A8FA7D600CACD2D /* Orange.swift */; };
+		BDCC775A2A8FA8F800CACD2D /* Lemon.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDCC77592A8FA8F800CACD2D /* Lemon.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -63,6 +65,8 @@
 		BD970F222A8C080300A25B77 /* Articles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Articles.swift; sourceTree = "<group>"; };
 		BD970F242A8C090100A25B77 /* Profile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Profile.swift; sourceTree = "<group>"; };
 		BDC3E5022A8E920B0080C233 /* Quiz1P.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Quiz1P.swift; sourceTree = "<group>"; };
+		BDCC77572A8FA7D600CACD2D /* Orange.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Orange.swift; sourceTree = "<group>"; };
+		BDCC77592A8FA8F800CACD2D /* Lemon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lemon.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,6 +112,8 @@
 				BD2F2FE22A8D0E8C00102230 /* Quizzes.swift */,
 				BD9433792A8EA94A00AC50BD /* Quiz3.swift */,
 				BD5B2FB02A8EAC0C00AEBDFB /* Money.swift */,
+				BDCC77572A8FA7D600CACD2D /* Orange.swift */,
+				BDCC77592A8FA8F800CACD2D /* Lemon.swift */,
 				BD9433772A8EA8B400AC50BD /* Peanut.swift */,
 				BD5B2FAE2A8EAA1A00AEBDFB /* Opal.swift */,
 				BD5254242A8D537F00DFBF18 /* Quiz2.swift */,
@@ -210,6 +216,7 @@
 				BD9433752A8EA3E400AC50BD /* Quiz1Q.swift in Sources */,
 				BDC3E5032A8E920B0080C233 /* Quiz1P.swift in Sources */,
 				BD970F232A8C080300A25B77 /* Articles.swift in Sources */,
+				BDCC775A2A8FA8F800CACD2D /* Lemon.swift in Sources */,
 				BD2F2FED2A8D3D4C00102230 /* Article4.swift in Sources */,
 				BD970F252A8C090100A25B77 /* Profile.swift in Sources */,
 				BD2F2FEB2A8D3CC100102230 /* Article3.swift in Sources */,
@@ -222,6 +229,7 @@
 				BD9433782A8EA8B400AC50BD /* Peanut.swift in Sources */,
 				BD94337A2A8EA94A00AC50BD /* Quiz3.swift in Sources */,
 				BD5254252A8D537F00DFBF18 /* Quiz2.swift in Sources */,
+				BDCC77582A8FA7D600CACD2D /* Orange.swift in Sources */,
 				BD7195872A8BD4540037B1C8 /* GirlVest1App.swift in Sources */,
 				BD5B2FAF2A8EAA1A00AEBDFB /* Opal.swift in Sources */,
 				BD2F2FE72A8D17D800102230 /* Article1.swift in Sources */,
